@@ -21,6 +21,7 @@
 		CE5E3C852B5F8273009DCF5A /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E3C842B5F8273009DCF5A /* MovieViewModel.swift */; };
 		CE5E3C8A2B5F9DEF009DCF5A /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E3C892B5F9DEF009DCF5A /* UIImageView.swift */; };
 		CE5E3C902B5FA2D0009DCF5A /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E3C8F2B5FA2CF009DCF5A /* MovieDetailViewController.swift */; };
+		CE5E3C922B60B552009DCF5A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E3C912B60B552009DCF5A /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CE5E3C842B5F8273009DCF5A /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		CE5E3C892B5F9DEF009DCF5A /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		CE5E3C8F2B5FA2CF009DCF5A /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		CE5E3C912B60B552009DCF5A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				CE5E3C622B5F785F009DCF5A /* AppDelegate.swift */,
 				CE5E3C642B5F785F009DCF5A /* SceneDelegate.swift */,
 				CE5E3C662B5F785F009DCF5A /* ViewController.swift */,
+				CE5E3C932B60B5C3009DCF5A /* Util */,
 				CE5E3C862B5F828A009DCF5A /* ViewModel */,
 				CE5E3C682B5F785F009DCF5A /* Main.storyboard */,
 				CE5E3C832B5F81A8009DCF5A /* Service */,
@@ -137,6 +140,14 @@
 				CE5E3C892B5F9DEF009DCF5A /* UIImageView.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE5E3C932B60B5C3009DCF5A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E3C912B60B552009DCF5A /* Constant.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				CE5E3C652B5F785F009DCF5A /* SceneDelegate.swift in Sources */,
 				CE5E3C902B5FA2D0009DCF5A /* MovieDetailViewController.swift in Sources */,
 				CE5E3C772B5F7D5B009DCF5A /* MovieViewController.swift in Sources */,
+				CE5E3C922B60B552009DCF5A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

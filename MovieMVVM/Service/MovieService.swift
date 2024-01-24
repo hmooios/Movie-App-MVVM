@@ -12,7 +12,7 @@ class MovieService {
     private init() {}
     
     func fetchPopularMovies(completion: @escaping (Result<MovieResponse, Error>) -> Void) {
-        guard let url = URL(string: "https://api.themoviedb.org/3/movie/upcoming?api_key=39772712b9e75acdbcd288e9a72ccbf0") else {
+        guard let url = URL(string: Constant.movieURL) else {
             completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
             return
         }
